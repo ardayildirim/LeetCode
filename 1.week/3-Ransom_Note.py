@@ -1,5 +1,5 @@
 class Solution(object):
-    def canConstruct(self, ransomNote, magazine):
+    def canConstruct(self, ransomNote, magazine): 
         def rec(ran,mag):
             if ran == "":
                 return True;
